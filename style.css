@@ -24,6 +24,7 @@ body
 
     padding-top: 20px;
     padding-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .question
@@ -31,6 +32,12 @@ body
     width: 90%;
     height: 150px;
     background-color: brown;
+
+    display: flex;
+    align-items: center;
+    
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .answer
@@ -39,3 +46,4 @@ body
     height: 300PX;
     background-color: brown;
 }
+
