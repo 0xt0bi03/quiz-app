@@ -15,5 +15,27 @@ body
     width: 80vw;
     height: 500px;
     background-color: teal;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    gap: 30PX;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.question
+{
+    width: 90%;
+    height: 150px;
+    background-color: brown;
+}
+
+.answer
+{
+    width: 90%;
+    height: 300PX;
+    background-color: brown;
+}
