@@ -45,5 +45,25 @@ body
     width: 90%;
     height: 300PX;
     background-color: brown;
+
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+
+.options
+{
+    width: 200px;
+    height: 100px;
+    background-color:slateblue;
+    font-size: 1.7em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
