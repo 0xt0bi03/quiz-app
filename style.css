@@ -61,6 +61,7 @@ body
     height: 100px;
     background-color:slateblue;
     font-size: 1.7em;
+    margin: 0%;
 
     display: flex;
     justify-content: center;
@@ -72,6 +73,7 @@ body
 .options:hover
 {
     transform:scale(1.1);
+    cursor:pointer;
 }
 
 .options:active
