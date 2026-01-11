@@ -29,6 +29,8 @@ let opt2 = document.querySelector('#opt2');
 let opt3 = document.querySelector('#opt3');
 let opt4 = document.querySelector('#opt4');
 
+let buttons = document.querySelectorAll('.options');
+
 function ask(number)
 {
     question.textContent = questions[number];
@@ -37,15 +39,32 @@ function ask(number)
     opt3.textContent = options[number][2];
     opt4.textContent = options[number][3];
 
-    
+    buttons.forEach(button => {
+        button.addEventListener('click', () =>
+        {
+            if (button.textContent == answers[number])
+            {
+                console.log('correct');
+            }
+            else
+            {
+                console.log('wrong');
+            }
+            setTimeout(() => 
+            {
+                return;
+            }, 3000);
+        });
+    });
+
 }
 
 
-console.log(question.textContent);
+// console.log(question.textContent);
 
-// for (let i = 0; i < questions.length(); i++)
-// {
-//     ask(number);
-// }
+for (let i = 0; i < questions.length(); i++)
+{
+    ask(number);
+}
 
-ask(0);
+// ask(0);
