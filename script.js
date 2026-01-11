@@ -32,16 +32,20 @@ let opt4 = document.querySelector('#opt4');
 function ask(number)
 {
     question.textContent = questions[number];
-    opt1.textContent = options[number][1];
-    opt1.textContent = options[number][2];
-    opt1.textContent = options[number][3];
-    opt1.textContent = options[number][4];
+    opt1.textContent = options[number][0];
+    opt2.textContent = options[number][1];
+    opt3.textContent = options[number][2];
+    opt4.textContent = options[number][3];
+
+    
 }
 
 
 console.log(question.textContent);
 
-for (let i = 0; i < questions.length(); i++)
-{
-    ask(number);
-}
+// for (let i = 0; i < questions.length(); i++)
+// {
+//     ask(number);
+// }
+
+ask(0);
