@@ -24,9 +24,10 @@ const answers = [
 
 
 let question = document.querySelector('#question');
-let question = document.querySelector('#question');
-let question = document.querySelector('#question');
-let question = document.querySelector('#question');
+let opt1 = document.querySelector('#opt1');
+let opt2 = document.querySelector('#opt2');
+let opt3 = document.querySelector('#opt3');
+let opt4 = document.querySelector('#opt4');
 
 function ask(number)
 {
