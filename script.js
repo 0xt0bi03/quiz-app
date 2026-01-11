@@ -13,3 +13,7 @@ const answers = [
   "7",
   "Pacific Ocean"
 ];
+
+
+let question = document.querySelector('#question');
+console.log(question.textContent);
